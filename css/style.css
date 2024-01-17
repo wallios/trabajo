@@ -1,0 +1,37 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: ;
+}
+:root{
+    --color-principal:#00ff88;
+    --color-secundario:#ff0000de;
+    --color-negro:#000000;
+    --color-blanco:#ffffff;
+    --color-terciario:#00ffddde;
+}
+nav{
+background: var(--color-principal);
+padding: 5px 40px;
+position: fixed;
+z-index: 99;
+width: 100%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    padding-left: opx;
+}
+nav ul li{
+    padding: 15px 0px;
+
+}
