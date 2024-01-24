@@ -21,11 +21,6 @@ body{
     --color-terciario:#00ffddde;
     --color-del-logo:#fffb00;
     --color-delfonde: #14c923cc;
-     --color-Facebook:#1100ff;
-     --color-instagram:#ff00c8;
-     --color-Youtube:#ff0000;
-     --color-twiter:#00d9ff;
-
 
 }
 nav{
@@ -270,14 +265,14 @@ display: flex;
   top: -10px;
   height: 2px;
   width: 100%;
-  background: var(--color-instagram);
+  background: var(--color-secundario);
 }
 .box .content:after{
   position: absolute;
   content: '';
   height: 2px;
   width: 15%;
-  background: var(--color-blanco);
+  background: var(--color-principal);
   top: -10px;
 }
 .left .content p{
@@ -300,14 +295,11 @@ display: flex;
   transition: 0.3s;
 }
 .left .content .social a span:hover{
-  background: var(--color-blanco);
+  background: #f12020;
 }
-
-/*parte izquierda*/
-
 .center .content .fas{
   font-size: 1.4375rem;
-  background: #0f0e0e;
+  background: #1a1a1a;
   height: 45px;
   width: 45px;
   line-height: 45px;

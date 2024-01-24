@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Burned&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
@@ -21,11 +20,6 @@ body{
     --color-terciario:#00ffddde;
     --color-del-logo:#fffb00;
     --color-delfonde: #14c923cc;
-     --color-Facebook:#1100ff;
-     --color-instagram:#ff00c8;
-     --color-Youtube:#ff0000;
-     --color-twiter:#00d9ff;
-
 
 }
 nav{
@@ -125,41 +119,8 @@ nav{
     }
   }
   /*carrusel*/
-  .carousel-inner img{
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-
-  }
-  .carousel-inner h5{
-   font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    color:#15ff00;
-  }
-  .carousel-inner h5 p{
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  .carousel-inner h6{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    color: #ff7b00;
-    opacity: 2;
-  }
-  .carousel-inner h6 p{
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  .carousel-inner h4{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    color: aqua;
-  }
-  .carousel-inner h4 p{
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #00154e;
-  }
+  
+  
   /*Aqui comenzamos la sección de tarjetas*/
 .card-list{
     display: grid;
@@ -270,14 +231,14 @@ display: flex;
   top: -10px;
   height: 2px;
   width: 100%;
-  background: var(--color-instagram);
+  background: var(--color-secundario);
 }
 .box .content:after{
   position: absolute;
   content: '';
   height: 2px;
   width: 15%;
-  background: var(--color-blanco);
+  background: var(--color-principal);
   top: -10px;
 }
 .left .content p{
@@ -300,14 +261,11 @@ display: flex;
   transition: 0.3s;
 }
 .left .content .social a span:hover{
-  background: var(--color-blanco);
+  background: #f12020;
 }
-
-/*parte izquierda*/
-
 .center .content .fas{
   font-size: 1.4375rem;
-  background: #0f0e0e;
+  background: #1a1a1a;
   height: 45px;
   width: 45px;
   line-height: 45px;
