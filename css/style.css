@@ -131,6 +131,18 @@ nav{
     object-fit: cover;
 
   }
+  .carousel-inner h5::selection{
+    color: red;
+    background: #000000;
+  }
+  .carousel-inner h4::selection{
+    color: red;
+    background: #000000;
+  }
+  .carousel-inner h6::selection{
+    color: red;
+    background: #000000;
+  }
   .carousel-inner h5{
    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
@@ -154,11 +166,6 @@ nav{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     color: aqua;
-  }
-  .carousel-inner h4 p{
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #00154e;
   }
   /*Aqui comenzamos la sección de tarjetas*/
 .card-list{
@@ -259,6 +266,10 @@ display: flex;
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+.box h2::selection{
+  color: blue;
+  background: #ff0000;
 }
 .box .content{
   margin: 20px 0 0 0;

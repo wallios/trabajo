@@ -209,7 +209,7 @@ nav{
   }
    @media screen and (max-width: 980px) {
     .card-list {
-        margin: 0 auto;
+        margin: 100px auto;
     }
   }
 
@@ -236,6 +236,10 @@ footer{
     font-weight: 600;
     text-transform: uppercase;
    
+  }
+  .box h2::selection{
+    color: blue;
+    background: #ff0000;
   }
   .box .content{
     margin: 20px 0 0 0;

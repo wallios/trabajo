@@ -131,6 +131,18 @@ nav{
     font-size: 30px;
     color:#15ff00;
   }
+  .carousel-inner h5::selection{
+    color: red;
+    background: #000000;
+  }
+  .carousel-inner h4::selection{
+    color: red;
+    background: #000000;
+  }
+  .carousel-inner h6::selection{
+    color: red;
+    background: #000000;
+  }
   .carousel-inner h5 p{
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -254,6 +266,10 @@ display: flex;
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+.box h2::selection{
+  color: blue;
+  background: #ff0000;
 }
 .box .content{
   margin: 20px 0 0 0;

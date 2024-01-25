@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tienda online</title>
-    <link rel="stylesheet" href="../css3/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<link rel="stylesheet"href="style.css">
+
 <!--libreria de estilo-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,39 +28,57 @@
      </ul>
 </nav>
 
+<div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasLabel">Saber nunca es malo</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   Este apartado es para saber mas sobre la tienda, saber su fundacion, ¿por que se fundo? y que cosas vienen en el futuro para vender o probeerles 
 
-  <!--TARJETAS-->
-  <div class="card-list">
-
-    <a href="#" class="card-item">
-        <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-        <span class="developer">Girasoles</span>
-        <h3>Otras plantas</h3>
-        <div class="arrow">
-            <i class="fa-solid fa-arrow-right"></i>
-        </div>
-    </a>
-
-    <a href="#" class="card-item">
-        <img src="https://images.unsplash.com/photo-1481900369621-54a7facacc6c?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-        <span class="designer">Miel en botes</span>
-        <h3>Comprar cajas de abejas</h3>
-        <div class="arrow">
-            <i class="fa-solid fa-arrow-right"></i>
-        </div>
-    </a>
-
-    <a href="#" class="card-item">
-        <img src="https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-        <span class="editor">Jabones cuadrados</span>
-        <h3>Mas formas y Mas ingredientes</h3>
-        <div class="arrow">
-            <i class="fa-solid fa-arrow-right"></i>
-        </div>
-    </a>
- </div>
-
-
+   att:Quinta flor de mayo
+  </div>
+</div>
+  
+<!--TARJETAS-->
+<div class="card-list">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
     <!--Footer-->
     
 
@@ -67,7 +87,7 @@
         <div class="left box">
           <h2>Acerca de</h2>
           <div class="content">
-            <p>Nuestro GYM es la mejor opción para hacer ejercicio</p>
+            <p>Lo que necesites</p>
             <div class="social">
               <a href="https://facebook.com"><span class="fab fa-facebook-f"></span></a>
               <a href="#"><span class="fab fa-twitter"></span></a>
@@ -85,11 +105,11 @@
             </div>
             <div class="phone">
               <span class="fas fa-phone-alt"></span>
-              <span class="text">+55519562578</span>
+              <span class="text">9996021431</span>
             </div>
             <div class="email">
               <span class="fas fa-envelope"></span>
-              <span class="text">luis@gmail.com</span>
+              <span class="text">jaredsilva812@gmail.com</span>
             </div>
           </div>
         </div>
@@ -114,14 +134,14 @@
       </div>
       <div class="bottom">
         <center>
-          <span class="credit">Created By <a href="#">Luis Suchil</a> | </span>
+          <span class="credit">Created By <a href="#">Jaredsilva</a> | </span>
           <span class="far fa-copyright"></span><span> 2024 derechos reservados.</span>
         </center>
       </div>
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 </html>
