@@ -126,6 +126,26 @@ nav{
       opacity: 0;
     }
 }
+/*pestaña*/
+.cajas{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background: linear-gradient( to bottom, #6200ff, #1100ff);
+font-size: 25px;
+}
+.offcanvas h5{
+  
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
 /*card*/
 .card-list{
     display: grid;
@@ -136,8 +156,43 @@ nav{
     gap:20px;
     margin-top: 10%;
   }
-
- /*Footer*/
+  .card-list .card{
+    background: linear-gradient( to bottom, #ffffff9a, #000000);
+    border-radius: 10px;
+    list-style: none;
+    cursor: pointer;
+  }
+  .card-list .card img{
+    height: 50%;
+    width: 50%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .card-list .card-body h5{
+    background: #000;
+    color: var(--color-blanco); display: inline-block;
+    margin-top: 32px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .card-list .card-body p{
+    color: var(--color-Youtube);
+    font-size: 25px; display: inline-block;
+   
+  }
+  .card-list .card-body p::selection{
+    background: #000000;
+    color: #ffe600;
+  }
+  .card-list .card-body h5:hover{
+    background-color: rgb(68, 0, 255);
+  }
+   /*Footer*/
  footer{
     position: relative;
     bottom: 0px;
